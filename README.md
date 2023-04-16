@@ -28,8 +28,12 @@
       `rails generate model TableName attribute:datatype attribute:datatype othertable:references`
       
   - ##### To Note: 
-    the many to many join table usually only needs references(foreign keys),
-    it does not need attributes,
+  - 
+    the many to many join table *often* only needs references(foreign keys),
+    check user stories carefully for clues 
+    
+    join tables *may* need attributes
+    
     parents do not need foreign keys
     
   
