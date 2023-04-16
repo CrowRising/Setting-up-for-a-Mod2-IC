@@ -23,7 +23,10 @@
       you may want to import schema to db.diagram if a visual is needed
   ### Table and Model Time!
     - once you are clear on the tables that need to be made and the relationships they will have
-      in the terminal run `rails generate model TableName attribute:datatype attribute:datatype othertable:references`
+      in the terminal run 
+      
+      `rails generate model TableName attribute:datatype attribute:datatype othertable:references`
+      
       *the many to many join table usually only needs references, it does not meed attributes*
       *parents do not need foreign keys*
     
